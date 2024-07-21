@@ -1,0 +1,18 @@
+{
+    "Attack Tree Root": {
+        "Physical Attack": {
+            "Steal Equipment": 0.12,
+            "Theft of Confidential Information": 0
+        },
+        "Insider Threat": {
+            "Data Theft": 0,
+            "Sabotage": 0
+        },
+        "Cyber Attack": {
+            "Phishing": 0.20,
+            "Malware": 0.05,
+            "DDoS": 0,
+            "SQL Injection": 0
+        }
+    }
+}
