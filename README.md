@@ -51,9 +51,62 @@ python attack_tree_app.py
   - Value for Sabotage (suffix '%' for probability): 8%
 
 - After all commands are finished, the application will visualize the attack tree graph as below:
-<img width="958" alt="Screenshot 2024-07-20 at 2 11 09 PM" src="https://github.com/user-attachments/assets/0015f5d5-f5b7-4e7a-a35a-a210019fdd62">
+<img width="1267" alt="Screenshot 2024-07-22 at 1 50 48 AM" src="https://github.com/user-attachments/assets/6531c4ef-860e-4ef9-ba56-c7411a452546">
+
+The pre-digitalisation.json
+```bash
+{
+    "Attack Tree Root": {
+        "Physical Attack": {
+            "Steal Equipment": 0.12,
+            "Theft of Confidential Information": 0
+        },
+        "Insider Threat": {
+            "Data Theft": 0,
+            "Sabotage": 0
+        },
+        "Network Attack": {
+            "Packet Sniffing": 0.04
+        },
+        "Cyber Attack": {
+            "Phishing": 0.20,
+            "Malware": 0.05,
+            "DDoS": 0,
+            "SQL Injection": 0
+        }
+    }
+}
+```
 
 The post-digitalisation.json file will also be generated.
-
-
+```bash
+{
+    "Attack Tree Root": {
+        "Physical Attack": {
+            "Steal Equipment": 0.15,
+            "Theft of Confidential Information": 0.05
+        },
+        "Insider Threat": {
+            "Data Theft": 0.01,
+            "Sabotage": 0.05
+        },
+        "Network Attack": {
+            "Packet Sniffing": 0.08,
+            "IP Spoofing": 0.07
+        },
+        "Cyber Attack": {
+            "Phishing": 0.07,
+            "Malware": 0.25,
+            "DDoS": 0.25,
+            "SQL Injection": 0.05
+        }
+    }
+}
+```
 - Command example screenshot:
+
+<img width="800" alt="Screenshot 2024-07-22 at 1 49 30 AM" src="https://github.com/user-attachments/assets/65c7599c-71b9-46d4-9984-502593f1cd5a">
+
+
+If use attack_tree.json:
+<img width="1306" alt="Screenshot 2024-07-22 at 1 52 53 AM" src="https://github.com/user-attachments/assets/0148a03f-837e-4f23-bc7a-cb963fd781ac">
