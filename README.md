@@ -108,5 +108,24 @@ The post-digitalisation.json file will also be generated.
 <img width="800" alt="Screenshot 2024-07-22 at 1 49 30 AM" src="https://github.com/user-attachments/assets/65c7599c-71b9-46d4-9984-502593f1cd5a">
 
 
-If use attack_tree.json:
+If use attack_tree.json as below:
+```bash
+{
+    "Attack Tree Root": {
+        "Physical Attack": {
+            "Equipment Theft": 0.02,
+            "Unauthorized Access": 0.07
+        },
+        "Network Attack": {
+            "IP Spoofing": 0.02,
+            "Packet Sniffing": 0.04
+        },      
+        "Cyber Attack": {
+            "Phishing": 0.04,
+            "DDoS": 0.03,
+            "SQL Injection": 0.04
+        }
+    }
+}
+```
 <img width="1306" alt="Screenshot 2024-07-22 at 1 52 53 AM" src="https://github.com/user-attachments/assets/0148a03f-837e-4f23-bc7a-cb963fd781ac">
