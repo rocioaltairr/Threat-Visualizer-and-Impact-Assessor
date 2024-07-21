@@ -13,8 +13,8 @@ class AttackTreeApp:
         self.current_model = 'pre-digitalisation'  # Default model
         self.weights = { # Define weights for different attack types
             "Physical Attack": 2,
-            "Network Attack": 3,
             "Insider Threat": 4,
+            "Network Attack": 3,
             "Cyber Attack": 5
         }
 

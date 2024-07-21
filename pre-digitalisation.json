@@ -8,6 +8,9 @@
             "Data Theft": 0,
             "Sabotage": 0
         },
+        "Network Attack": {
+            "Packet Sniffing": 0.04
+        },
         "Cyber Attack": {
             "Phishing": 0.20,
             "Malware": 0.05,
