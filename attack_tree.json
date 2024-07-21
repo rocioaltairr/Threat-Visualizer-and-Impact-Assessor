@@ -8,15 +8,8 @@
             "IP Spoofing": 0.02,
             "Packet Sniffing": 0.04
         },
-        "Insider Threat": {
-            "Information Leak": 0.02,
-            "Privilege Abuse": 0.04,
-            "System Tampering": 0.03,
-            "Collusion": 0.02
-        },
         "Cyber Attack": {
             "Phishing": 0.04,
-            "Malware": 0.06,
             "DDoS": 0.03,
             "SQL Injection": 0.04
         }
