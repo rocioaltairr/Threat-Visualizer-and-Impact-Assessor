@@ -53,5 +53,7 @@ python attack_tree_app.py
 - After all commands are finished, the application will visualize the attack tree graph as below:
 <img width="958" alt="Screenshot 2024-07-20 at 2 11 09 PM" src="https://github.com/user-attachments/assets/0015f5d5-f5b7-4e7a-a35a-a210019fdd62">
 
+The post-digitalisation.json file will also be generated.
 
-- Command example:
+
+- Command example screenshot:
