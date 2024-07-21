@@ -38,17 +38,14 @@ pip install networkx matplotlib pyyaml
 ```bash
 python attack_tree_app.py
 ```
-
-- Enter the Attack Tree Specification:
-- Enter the attack tree specification (in an industry-standard format such as XML, YAML, or JSON):attack_tree.json
-```bash
-attack_tree.json
-```
+- When prompted with 'Do you want to use the default 'pre-digitalisation' model or provide a custom file? (default/custom):', type 'default' to use the pre-digitalisation.json model or type 'custom' to choose your own model in an industry-standard format (XML, YAML, or JSON).
+- If type "custom"
+- Enter the path to your custom file. For example "attack_tree.json"
 
 - Add Risks:
-  - Enter the parent risk type to which you want to add a new risk.
-  - Input the name of the new risk to add new risk.
-  - Type exit when you are finished adding risks.
+  - Enter the parent risk type to which you want to add a new risk. For example "Network Attack"
+  - Input the name of the new risk to add new risk. For example "IP Spoofing"
+  - Type "exit" when you are finished adding risks.
 
 - Enter probability of Risk and aggregate value of the overall thread rating probability:
   - Value for Sabotage (suffix '%' for probability): 8%
@@ -56,5 +53,7 @@ attack_tree.json
 - After all commands are finished, the application will visualize the attack tree graph as below:
 <img width="958" alt="Screenshot 2024-07-20 at 2 11 09 PM" src="https://github.com/user-attachments/assets/0015f5d5-f5b7-4e7a-a35a-a210019fdd62">
 
+The post-digitalisation.json file will also be generated.
 
-- Command example:
+
+- Command example screenshot:
